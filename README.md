@@ -1,8 +1,17 @@
-# Substrate Off-chain Worker Demo
+# Substrate Off-chain Worker Polkadot Price Fetch 
 
 This repository is built based on [Substrate Node Template `v3.0.0+monthly-2021-10`](https://github.com/substrate-developer-hub/substrate-node-template/tree/v3.0.0+monthly-2021-10).
 
-The purpose is to demonstrate what off-chain worker could do, and how one would go about using it.
+The purpose is to use Offchain workers to get Polkadot price 
+
+#[pallet::call}
+fn parse_ge_price() -> <PokadotPrice, Err> {
+  - Bytes to JSON String 
+  - Deserialise JSON to Struct 
+  - Data to String 
+  - Deserialise Struct to Json 
+  Ok(())
+}
 
 ### Run
 
